@@ -4,7 +4,7 @@
 npm install nodemailer
 
 # Code Sample from Node-Mailer
-let transporter = nodemailer.createTransport({
+```let transporter = nodemailer.createTransport({
     host: "smtp.ethereal.email",
     port: 587,
     secure: false, // true for 465, false for other ports
@@ -29,7 +29,7 @@ let transporter = nodemailer.createTransport({
   // Preview only available when sending through an Ethereal account
   console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
   // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-}
+}```
 
 # Docs for Node-Mailer
 https://nodemailer.com/about/
